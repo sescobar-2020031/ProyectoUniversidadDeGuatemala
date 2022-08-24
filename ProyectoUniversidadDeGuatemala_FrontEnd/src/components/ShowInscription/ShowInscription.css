@@ -3,3 +3,11 @@
     background-size: cover;
     height: 91.5vh;
 }
+
+@media screen and (max-width: 1024px) {
+    .box{
+        background: url(https://cdn141.picsart.com/370410648005201.png) no-repeat center center fixed;
+        object-fit: cover;
+        height: 90vh;
+    }
+}

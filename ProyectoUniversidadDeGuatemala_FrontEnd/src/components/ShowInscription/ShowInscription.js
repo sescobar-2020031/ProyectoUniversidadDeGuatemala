@@ -41,26 +41,26 @@ const ShowInscription = () => {
                 <div className="row">
                     <div className="col-sm-9 col-md-7 col-lg-6 mx-auto">
                         <div className="card border-0 shadow rounded-3 my-4">
-                            <div className="card-body p-sm-5">
+                            <div className="card-body p-sm-4">
                                 <h4 className="card-title text-center">Felicitaciones {fullname}</h4>
                                 <p className="text-center"> Te has registrado exitosamente </p>
-                                <p className="mb-1">Carnet</p>
-                                <div className="input-group mb-3">
+                                <p className="mb-1 ps-4 pe-4">Carnet</p>
+                                <div className="input-group ps-4 pe-4 mb-3">
                                     <i className="input-group-text bi bi-person-badge-fill"></i>
                                     <input disabled value={carnet} type="text" className="form-control" placeholder="Carnet" aria-label="Carnet" aria-describedby="basic-addon1" />
                                 </div>
-                                <p className="mb-1">Teléfono</p>
-                                <div className="input-group mb-3">
+                                <p className="mb-1 ps-4 pe-4">Teléfono</p>
+                                <div className="input-group ps-4 pe-4 mb-3">
                                     <i className="input-group-text bi bi-phone-fill"></i>
                                     <input disabled value={phone} type="text" className="form-control" placeholder="Phone" aria-label="Phone" aria-describedby="basic-addon1" />
                                 </div>
-                                <p className="mb-1">Género de poesía</p>
-                                <div className="input-group mb-3">
+                                <p className="mb-1 ps-4 pe-4">Género de poesía</p>
+                                <div className="input-group ps-4 pe-4 mb-3">
                                     <i className="input-group-text bi bi-blockquote-right"></i>
                                     <input disabled value={poetryGenre} type="text" className="form-control" placeholder="GéneroPoesía" aria-label="Género Poesía" aria-describedby="basic-addon1" />
                                 </div>
-                                <p className="mb-1">Fecha de Declamación</p>
-                                <div className="input-group mb-3">
+                                <p className="mb-1 ps-4 pe-4">Fecha de Declamación</p>
+                                <div className="input-group ps-4 pe-4 mb-3">
                                     <i className="input-group-text bi bi-calendar-check-fill"></i>
                                     <input disabled value={declamationDate.slice(0, -14)} type="text" className="form-control" placeholder="FechaDeclamacion" aria-label="Fecha Declamacion" aria-describedby="basic-addon1" />
                                 </div>
